@@ -68,7 +68,6 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open("https://www.google.com")
             speak("opening google")
-            
         elif 'open yahoo' in query:
             webbrowser.open("https://www.yahoo.com")
             speak("opening yahoo")            
@@ -101,13 +100,13 @@ if __name__ == "__main__":
             stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nice and full of energy','i am okey ! How are you']
             ans_q = random.choice(stMsgs)
             speak(ans_q)  
-            ans_take_from_user_how_are_you = takecomm()
+            ans_take_from_user_how_are_you = takecom()
             if 'fine' in ans_take_from_user_how_are_you or 'happy' in ans_take_from_user_how_are_you or 'okey' in ans_take_from_user_how_are_you:
                 speak('okey..')  
             elif 'not' in ans_take_from_user_how_are_you or 'sad' in ans_take_from_user_how_are_you or 'upset' in ans_take_from_user_how_are_you:
                 speak('oh sorry..')  
         elif 'make you' in query or 'created you' in query or 'develop you' in query:
-            ans_m = " For your information Hemant Kumar Arya Created me ! I give Lot of Thannks to Him "
+            ans_m = " For your information Vaibhav Ingle  Created me ! I give Lot of Thannks to Him "
             print(ans_m)
             speak(ans_m)
         elif "who are you" in query or "about you" in query or "your details" in query:
@@ -115,7 +114,7 @@ if __name__ == "__main__":
             print(about)
             speak(about)
         elif "hello" in query or "hello Jarvis" in query:
-            hel = "Hello Hemant Sir ! How May i Help you.."
+            hel = "Hello Vaibhav ! How May i Help you.."
             print(hel)
             speak(hel)
         elif "your name" in query or "sweat name" in query:
